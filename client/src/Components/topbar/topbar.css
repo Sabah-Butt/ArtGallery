@@ -1,0 +1,19 @@
+.top {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin-top: 3%;
+  display: flex;
+}
+
+.topLeft {
+  flex: 1;
+}
+
+.topCenter {
+  flex: 11;
+  align-items: center;
+}
+.Navbar.Toggle.open {
+  margin-bottom: 50%;
+}

@@ -1,0 +1,67 @@
+.AddPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+  padding: 10%;
+}
+
+.addform {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+}
+
+#fileinput {
+  margin-left: 30%;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+}
+
+.addformgroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+}
+
+.filetext {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+}
+.textarea {
+  height: 50vh;
+}
+.postSubmit {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+}
+
+.image {
+  margin-left: 150px;
+  width: 15%;
+  margin-left: 35%;
+}

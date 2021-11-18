@@ -1,0 +1,63 @@
+.register {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/src/assets/login_header.png);
+
+  background-size: cover;
+  margin-top: 60px;
+}
+.registerTitle {
+  font-size: 60px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerForm > label {
+  margin: 30px, 0;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  font-family: "Architects Daughter", cursive;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+}
+
+.RegisterloginButton {
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+}
+p {
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+}

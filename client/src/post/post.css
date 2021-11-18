@@ -1,0 +1,77 @@
+.card {
+  margin: 4%;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: auto;
+} */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.card-title {
+  margin: auto;
+}
+.card-button {
+  display: flex;
+  margin: auto;
+  margin: 2%;
+}
+
+.singlePostButton {
+  background-color: rgb(240, 236, 236);
+  color: black;
+  font-family: "Architects Daughter", cursive;
+  cursor: pointer;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.singlePostButton:hover {
+  background-color: rgb(215, 221, 221);
+  cursor: pointer;
+}
+/* .fa-edit {
+  background-color: teal;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fa-trash-alt {
+  background-color: teal;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
+.singlePostIcon {
+  background-color: rgb(240, 236, 236);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.singlePostIcon:hover {
+  background-color: rgb(215, 221, 221);
+  cursor: pointer;
+}
+/* .singlePostEdit {
+  padding: 20px;
+} */

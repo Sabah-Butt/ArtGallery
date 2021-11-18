@@ -1,0 +1,15 @@
+.footer-container {
+  text-align: center;
+  margin-top: 10%;
+  background-color: #282828;
+  padding: 1%;
+  color: antiquewhite;
+}
+
+h4 {
+  font-family: "Rampart One", cursive;
+}
+p {
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+}

@@ -1,0 +1,18 @@
+h3 {
+  color: #282828;
+  text-align: center;
+  /* font-family: "Crafty Girls", cursive; */
+  /* font-family: "Chelsea Market", cursive; */
+  font-family: "Architects Daughter", cursive;
+  font-size: 60px !important;
+  font-weight: 500px;
+}
+
+.feed {
+  margin-top: 8%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
